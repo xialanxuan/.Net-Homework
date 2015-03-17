@@ -1,0 +1,29 @@
+﻿body {
+}
+
+
+div#platform {
+    width: 800px;
+
+    text-align:center;
+    vertical-align:middle;
+
+}
+
+div.tri
+{   
+    width:200px;
+    height:50px;
+    float:left;
+    text-align:center;
+    vertical-align:central; 
+}
+
+div.require
+{   
+    width:400px;
+    height:50px;
+    float:left;
+    text-align:center;
+    vertical-align:central; 
+}

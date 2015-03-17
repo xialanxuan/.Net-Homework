@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-hw1login-20150222013657.mdf;Initial Catalog=aspnet-hw1login-20150222013657;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Siyang\ Wang\\documents\\visual\ studio\ 2013\\Projects\\hw1login\\hw1login\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="hw1login_dbConnectionString-Web.config Connection String" description="hw1login_dbConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=ikgprv0r8z.database.windows.net;Initial Catalog=hw1login_db;Persist Security Info=True;User ID=xialanxuan;Password=74111syyM" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Siyang\ Wang\\documents\\visual\ studio\ 2013\\Projects\\hw1login\\hw1login\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hw1login_dbConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
