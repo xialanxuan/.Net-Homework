@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<All>
+<Visitors>
+    <Visitor>
+  	<IP>123.123.123.1</IP>
+    </Visitor>
+    <Visitor>
+  	<IP>123.123.123.2</IP>
+    </Visitor>
+    <Visitor>
+  	<IP>123.123.123.3</IP>
+    </Visitor>
+</Visitors>
+<Users>
+<User>
+  <UserId>1</UserId>
+  <Email>sw2057@nyu.edu</Email>
+  <FirstName>Siyang</FirstName>
+  <MiddleInit>N/A</MiddleInit>
+  <LastName>Wang</LastName>
+  <Occupation>Employee</Occupation>
+</User>
+<User>
+  <UserId>2</UserId>
+  <Email>ss234@nyu.edu</Email>
+  <FirstName>Sloan</FirstName>
+  <MiddleInit>N/A</MiddleInit>
+  <LastName>Stan</LastName>
+  <Occupation>Client</Occupation>
+</User>
+<User>
+  <UserId>3</UserId>
+  <Email>ak123@nyu.edu</Email>
+  <FirstName>Alex</FirstName>
+  <MiddleInit>N/A</MiddleInit>
+  <LastName>Kai</LastName>
+  <Occupation>Other</Occupation>
+</User>
+</Users>
+<Projects>
+	<Project>
+		<ProjectId>1</ProjectId>
+		<Name>dot net hw1</Name>
+		<Description>This is a project in dot net hw1</Description>
+		<Archived>true</Archived>
+		<CreatorId>1</CreatorId>
+	</Project>
+	<Project>
+		<ProjectId>2</ProjectId>
+		<Name>dot net hw2</Name>
+		<Description>This is a project in dot net hw2 and is ok</Description>
+		<Archived>false</Archived>
+		<CreatorId>1</CreatorId>
+	</Project>
+	<Project>
+		<ProjectId>3</ProjectId>
+		<Name>dot net hw3</Name>
+		<Description>This is a project in dot net hw3 and it`s complicated and hard. I really need to search a lot online</Description>
+		<Archived>true</Archived>
+		<CreatorId>1</CreatorId>
+	</Project>
+</Projects>
+<Activities>
+	<Activity>
+		<ActivityId>1</ActivityId>
+		<Description>activity description</Description>
+		<Type>Consulting</Type>
+	</Activity>
+	<Activity>
+		<ActivityId>2</ActivityId>
+		<Description>this is a description</Description>
+		<Type>Development</Type>
+	</Activity>
+	<Activity>
+		<ActivityId>3</ActivityId>
+		<Description>miemiemiemie</Description>
+		<Type>Accounting</Type>
+	</Activity>
+</Activities>
+<ProjectActivities>
+  <ProjectActivity>
+    <ProjectActivityId>1</ProjectActivityId>
+    <ActivityId>1</ActivityId>
+    <ProjectId>1</ProjectId>
+    <TimeSpent>3:15</TimeSpent>
+  </ProjectActivity>
+  <ProjectActivity>
+    <ProjectActivityId>2</ProjectActivityId>
+    <ActivityId>1</ActivityId>
+    <ProjectId>1</ProjectId>
+    <TimeSpent>4:15</TimeSpent>
+  </ProjectActivity>
+  <ProjectActivity>
+    <ProjectActivityId>3</ProjectActivityId>
+    <ActivityId>1</ActivityId>
+    <ProjectId>2</ProjectId>
+    <TimeSpent>3:35</TimeSpent>
+  </ProjectActivity>
+</ProjectActivities>
+<UserEntries>
+  <UserEntry>
+    <UserEntryId>1</UserEntryId>
+    <UserId>1</UserId>
+    <ProjectId>1</ProjectId>
+    <ActivityId>1</ActivityId>
+    <HourlyCost>25</HourlyCost>
+    <HourlyBillRate>0.4</HourlyBillRate>
+    <Billable>true</Billable>
+  </UserEntry>
+  <UserEntry>
+    <UserEntryId>2</UserEntryId>
+    <UserId>2</UserId>
+    <ProjectId>1</ProjectId>
+    <ActivityId>1</ActivityId>
+    <HourlyCost>25</HourlyCost>
+    <HourlyBillRate>0.8</HourlyBillRate>
+    <Billable>false</Billable>
+  </UserEntry>
+  <UserEntry>
+    <UserEntryId>3</UserEntryId>
+    <UserId>1</UserId>
+    <ProjectId>2</ProjectId>
+    <ActivityId>3</ActivityId>
+    <HourlyCost>25</HourlyCost>
+    <HourlyBillRate>0.6</HourlyBillRate>
+    <Billable>true</Billable>
+  </UserEntry>
+</UserEntries>
+<UserActivities>
+  <UserActivity>
+    <UserActivityId>1</UserActivityId>
+    <ActivityId>1</ActivityId>
+    <UserId>1</UserId>
+  </UserActivity>
+  <UserActivity>
+    <UserActivityId>2</UserActivityId>
+    <ActivityId>1</ActivityId>
+    <UserId>2</UserId>
+  </UserActivity>
+  <UserActivity>
+    <UserActivityId>3</UserActivityId>
+    <ActivityId>1</ActivityId>
+    <UserId>3</UserId>
+  </UserActivity>
+</UserActivities>
+<TimeEntries>
+	<TimeEntry>
+		<TimeEntryId>1</TimeEntryId>
+		<UserEntryId>1</UserEntryId>
+		<ProjectId>1</ProjectId>
+		<Description>I dont know what to say</Description>
+		<StartTime>03/12/2015</StartTime>
+		<EndTime>03/22/2015</EndTime>
+	</TimeEntry>
+	<TimeEntry>
+		<TimeEntryId>2</TimeEntryId>
+		<UserEntryId>2</UserEntryId>
+		<ProjectId>1</ProjectId>
+		<Description>this is a userentry haha</Description>
+		<StartTime>03/22/2015</StartTime>
+		<EndTime>04/01/2015</EndTime>
+	</TimeEntry>
+	<TimeEntry>
+		<TimeEntryId>3</TimeEntryId>
+		<UserEntryId>2</UserEntryId>
+		<ProjectId>3</ProjectId>
+		<Description>well well</Description>
+		<StartTime>02/02/2015</StartTime>
+		<EndTime>02/03/2015</EndTime>
+	</TimeEntry>
+</TimeEntries>
+</All>
